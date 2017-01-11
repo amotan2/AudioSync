@@ -7,6 +7,13 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+    /* Problem right now:
+       The project works when the fragment is removed (works == blank screen of the main activity)
+       Something seems to be wrong with the incorparation of the login_fragment
+       Could be someting inside the fragment itself too
+     */
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //setTheme(R.style.splashScreenTheme);
